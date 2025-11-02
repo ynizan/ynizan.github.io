@@ -1,0 +1,25 @@
+# Jekyll configuration for Gov123 GitHub Pages site
+title: Gov123
+description: Stripe for Government Transactions
+theme: minima
+
+# GitHub Pages settings
+baseurl: ""
+url: "https://ynizan.github.io"
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Navigation
+header_pages:
+  - index.md
+  - problem.md
+
+# Exclude files from build
+exclude:
+  - README.md
+  - .git
+  - .gitignore
