@@ -1,0 +1,42 @@
+# Site settings
+title: Gov123
+description: Stripe for Government Transactions
+baseurl: ""
+url: "https://ynizan.github.io"
+
+# Build settings
+markdown: kramdown
+theme: null
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Site metadata
+author: Gov123
+lang: en
+
+# GitHub Pages compatibility
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# SEO settings
+tagline: "Stripe for Government Transactions"
+logo: /assets/images/logo.png
+
+# Social links (optional)
+github_username: ynizan
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
